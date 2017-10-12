@@ -1,0 +1,77 @@
+body {
+    background-image: url('F:/GreenFox/RandomSeatGenerator/ep4f.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #419464;
+    font-weight: bold;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.classroom {
+    margin-top: 30px;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.table, 
+.chair {
+    border: solid #419464 1px;
+    padding: 5px;
+    text-align: center;
+}
+
+.table {
+    height: 80px;
+    width: 80px;
+    color: transparent;
+    margin: 0px, 10px, 0px, 10px;
+    padding-bottom: -40px;
+}
+
+.chair {
+    width: 50px;
+}
+
+.groups p {
+    display: inline-block;
+}
+
+.groups p:first-of-type {
+    display: block;
+    margin-bottom: -108px;
+}
+
+.groups p:last-of-type {
+    display: block;
+    margin-top: -47px;
+    margin-left: 162px;
+}
+
+.window-side div,
+.door-side div {
+    display: inline-block;
+    margin: 30px;
+}
+
+.table-info {
+    color: transparent;
+}
+
+@media only screen and (max-width: 870px) {
+    .table-info {
+        color: #419464;
+    }
+
+    .table {
+        color: #419464;
+    }
+
+    body h2:last-of-type {
+        color: transparent;
+    }
+}
