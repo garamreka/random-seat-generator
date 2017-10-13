@@ -2,7 +2,7 @@ $(document).ready(function() {
     var alpaga = [
         "Berci", "Flora", "Arni", "Balazs", "Kriszta",
         "Vili", "Tomi", "Reka", "Botond", "Evi",
-        "Dorka", "Boldi", "Bazsi", "Norbi", "Lori",
+        "Dorka", "Boldizsar", "Bazsi", "Norbi", "Lori",
         "Gyula", "Loci", "Gergo", "Csilla", "Adri"
     ];
     var newAlpaga = [];
@@ -24,7 +24,6 @@ $(document).ready(function() {
         } else {
             date=date.getDate()+(date.getMonth()+1)*100+date.getFullYear()*10000;
         }
-        console.log(date);
         generator = SeedRandom(date);
     }
 
@@ -51,7 +50,6 @@ $(document).ready(function() {
 
         if (day.getHours() > 16) {
             dayIndex = day.getDay() + 1;
-            console.log(dayIndex);
         }
 
         helloAlpaga = "Hello Alpaga, here are your seats for " + days[dayIndex];

@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 .chair {
-    width: 50px;
+    width: 60px;
 }
 
 .groups p {
@@ -49,7 +49,7 @@ h1, h2 {
 .groups p:last-of-type {
     display: block;
     margin-top: -47px;
-    margin-left: 162px;
+    margin-left: 172px;
 }
 
 .window-side div,
@@ -62,7 +62,7 @@ h1, h2 {
     color: transparent;
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 940px) {
     .table-info {
         color: #419464;
     }
